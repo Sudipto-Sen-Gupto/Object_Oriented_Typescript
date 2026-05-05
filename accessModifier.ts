@@ -25,7 +25,7 @@
 // myBalance.userBalance=10000+5000; thus we can not do  this for this kind of sensitive information .If we set 0 for balance the rich people will poor and the bank manager will go jail .We can use 'private' keyword and make a function for balance increasing or decreasing;
 
  class TomarAccount extends BankAccount{
-         addTomarBalance(balance){
+         addTomarBalance(balance:number){
                                   //if we use private keyword then we cann't access userBalance in her so we can use protected keyword for our work purpose
                       this.userBalance=this.userBalance+balance            
                                    
